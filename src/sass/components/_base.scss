@@ -1,0 +1,293 @@
+/**
+ * @section Base Styles
+ */
+
+body {
+	font-size: 125%;
+	margin: 0 auto;
+	
+}
+
+input,
+textarea,
+select,
+button {
+	font: inherit;
+}
+
+.background{
+z-index: 0;
+width:100%;
+height: 100vh;
+position: absolute;
+top:0%;
+background: #752dd0; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #752dd0 6%, #2989d8 6%, #7448d7 6%, #7448d7 6%, #7448d7 50%, #736fdf 65%, #736fdf 41%, #ffffff 41%, #ffffff 100%);
+background: -webkit-linear-gradient(-45deg, #752dd0 6%,#2989d8 6%,#7448d7 6%,#7448d7 6%,#7448d7 50%,#736fdf 65%,#736fdf 41%,#ffffff 41%,#ffffff 100%); 
+background: linear-gradient(-190deg, #752dd0 8%, 6%,#7448d7 6%,#7448d7 6%,#7448d7 50%,#736fdf 0%,#736fdf 65%,#ffffff 41%,#ffffff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#752dd0', endColorstr='#ffffff',GradientType=1 ); }
+
+.spread{
+	position: relative;
+	color: #FFFEFF;
+	
+}
+
+.header{
+	display: flex;
+	align-self: auto;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center
+}
+.logo{
+	
+	padding-left:5%
+}
+.sep{
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.user{
+	display: flex;
+	flex-direction: row;
+}
+
+.cluster{
+	flex-direction:row;
+	flex-flow: nowrap;
+	min-width:60%;
+}
+.cluster a {
+	padding-right:10%
+}
+
+.support {
+margin-left: 30%;
+min-width: 65%;
+
+background:#81D398;
+border-radius: 5px;
+text-align: center;
+box-shadow: 0px 1px 1px grey;
+}
+.support:hover{
+	box-shadow: 0px 4px 4px #4d1b8e;
+}
+
+.tagline{
+	align-self: center;
+    font-size: 300%;
+    display: flex;
+	padding-top: 8%;
+	padding-bottom: 5%;
+    flex-direction: column;
+    text-align: center;
+
+}
+.form{
+	padding-top: 2%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.button{
+	width: 8%;
+	color: #FFFEFF;
+	font-size: 20px;
+	background:#81D398;
+	border-radius: 10px;
+}
+
+.button:hover{
+	
+	box-shadow: 0px 4px 4px #4d1b8e;
+}
+.search{
+	padding: 20%
+}
+.textBox{
+	border-radius: 10px;
+	margin-right:10px;
+	width: 30%;
+	color: lightgrey;
+	text-indent:4%;
+	font-size: 20px
+
+}
+
+
+.midriff{
+	text-align: center;
+	padding-top: 2%;
+	font-size: 90%
+	
+}
+.lower{
+	color: slategrey;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+
+}
+
+.pitch{
+    flex-direction: column;
+	padding-top: 10%;
+	justify-self: center;
+	
+}
+.pitch div {
+	text-align: center;
+}
+.create{
+
+	width: 8%;
+	right:50%;
+	color: #FFFEFF;
+	font-size: 20px;
+	background:#81D398;
+	border-radius: 10px;
+	display: flex;
+	justify-self: center
+}
+
+.serviceHeader{
+	padding-top: 5%;
+	font-size: 135%;
+	font-weight: 200;
+}
+
+.services  {
+display: flex;
+text-align: left;
+flex-wrap: wrap;
+
+}
+.spacer{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	
+
+}
+.space{
+	min-height:2px;
+	background-color: grey;
+	margin:1%;
+	width: 5%;
+}
+.services div {
+	background: #f2f2f2;
+	border-radius: 10px;
+	width:38%;
+	max-height:30%;
+	margin-left: 1%;
+	margin-bottom: 1%; 
+	margin-right:1%;
+	padding: 1%;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+}
+.services img {
+width: 20%;
+
+}
+.services .text {
+	max-height:5%
+}
+
+.services div h3{
+	font-size: 110%
+}
+.services div .text p{
+	min-width:260%;
+	font-size: 80%
+}
+
+.call{
+	display: flex;
+	justify-content: space-between;
+	max-width: 85%
+
+}
+
+.call .left {
+	text-align: left;
+	color: #7448D7;
+	font-size: 100%;
+	line-height: 1%;
+	margin-left: 3%;
+}
+.call .right {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	color: #7448D7;
+	font-size: 90%;
+	padding: 2%;
+	
+	align-content: center;
+	padding: 1%;
+
+}
+.call .right div{
+	min-width: 100%;
+	border-radius: 5px;
+	margin: 1px;
+	text-align: center;
+}
+
+.account{
+	background-color: #736FDF;
+	color:#FFFFFF;
+}
+.contact{
+	color: #736FDF;
+	box-shadow: 0px 2px 2px grey;
+}
+.contact:hover {
+	box-shadow: 0px 4px 4px grey;
+}
+.account:hover {
+	box-shadow: 0px 4px 4px grey;
+}
+.account div{ 
+	padding:1%
+}
+
+.contact div {
+	padding:1%
+}
+
+.footer{
+	display:flex;
+	background-color: #736FDF;
+	height:250px;
+	color:#FCFCFD;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.footer div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.footer div a {
+
+	font-size: 80%;
+	min-height:2%
+}
+.footer div .title{
+	font-weight: 400;
+}
+
+

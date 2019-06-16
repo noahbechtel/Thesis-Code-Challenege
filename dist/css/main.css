@@ -1,0 +1,444 @@
+/*!
+ * project-name v0.0.1
+ * A description for your project.
+ * (c) 2019 YOUR NAME
+ * MIT License
+ * http://link-to-your-git-repo.com
+ */
+
+/**
+ * @section Base Styles
+ */
+/* line 5, src/sass/components/_base.scss */
+body {
+  font-size: 125%;
+  margin: 0 auto;
+}
+
+/* line 11, src/sass/components/_base.scss */
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+/* line 18, src/sass/components/_base.scss */
+.background {
+  z-index: 0;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0%;
+  background: #752dd0;
+  /* Old browsers */
+  background: linear-gradient(-190deg, #752dd0 8%, 6%, #7448d7 6%, #7448d7 6%, #7448d7 50%, #736fdf 0%, #736fdf 65%, #ffffff 41%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#752dd0', endColorstr='#ffffff',GradientType=1 );
+}
+
+/* line 30, src/sass/components/_base.scss */
+.spread {
+  position: relative;
+  color: #FFFEFF;
+}
+
+/* line 36, src/sass/components/_base.scss */
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: auto;
+      align-self: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 43, src/sass/components/_base.scss */
+.logo {
+  padding-left: 5%;
+}
+
+/* line 47, src/sass/components/_base.scss */
+.sep {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+/* line 54, src/sass/components/_base.scss */
+.user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+/* line 59, src/sass/components/_base.scss */
+.cluster {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-flow: nowrap;
+      flex-flow: nowrap;
+  min-width: 60%;
+}
+
+/* line 64, src/sass/components/_base.scss */
+.cluster a {
+  padding-right: 10%;
+}
+
+/* line 68, src/sass/components/_base.scss */
+.support {
+  margin-left: 30%;
+  min-width: 65%;
+  background: #81D398;
+  border-radius: 5px;
+  text-align: center;
+  -webkit-box-shadow: 0px 1px 1px grey;
+          box-shadow: 0px 1px 1px grey;
+}
+
+/* line 77, src/sass/components/_base.scss */
+.support:hover {
+  -webkit-box-shadow: 0px 4px 4px #4d1b8e;
+          box-shadow: 0px 4px 4px #4d1b8e;
+}
+
+/* line 81, src/sass/components/_base.scss */
+.tagline {
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-size: 300%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 8%;
+  padding-bottom: 5%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+/* line 91, src/sass/components/_base.scss */
+.form {
+  padding-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 97, src/sass/components/_base.scss */
+.button {
+  width: 8%;
+  color: #FFFEFF;
+  font-size: 20px;
+  background: #81D398;
+  border-radius: 10px;
+}
+
+/* line 105, src/sass/components/_base.scss */
+.button:hover {
+  -webkit-box-shadow: 0px 4px 4px #4d1b8e;
+          box-shadow: 0px 4px 4px #4d1b8e;
+}
+
+/* line 109, src/sass/components/_base.scss */
+.search {
+  padding: 20%;
+}
+
+/* line 112, src/sass/components/_base.scss */
+.textBox {
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 30%;
+  color: lightgrey;
+  text-indent: 4%;
+  font-size: 20px;
+}
+
+/* line 123, src/sass/components/_base.scss */
+.midriff {
+  text-align: center;
+  padding-top: 2%;
+  font-size: 90%;
+}
+
+/* line 129, src/sass/components/_base.scss */
+.lower {
+  color: slategrey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+/* line 139, src/sass/components/_base.scss */
+.pitch {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 10%;
+  justify-self: center;
+}
+
+/* line 145, src/sass/components/_base.scss */
+.pitch div {
+  text-align: center;
+}
+
+/* line 148, src/sass/components/_base.scss */
+.create {
+  width: 8%;
+  right: 50%;
+  color: #FFFEFF;
+  font-size: 20px;
+  background: #81D398;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: center;
+}
+
+/* line 160, src/sass/components/_base.scss */
+.serviceHeader {
+  padding-top: 5%;
+  font-size: 135%;
+  font-weight: 200;
+}
+
+/* line 166, src/sass/components/_base.scss */
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/* line 172, src/sass/components/_base.scss */
+.spacer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 180, src/sass/components/_base.scss */
+.space {
+  min-height: 2px;
+  background-color: grey;
+  margin: 1%;
+  width: 5%;
+}
+
+/* line 186, src/sass/components/_base.scss */
+.services div {
+  background: #f2f2f2;
+  border-radius: 10px;
+  width: 38%;
+  max-height: 30%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  margin-right: 1%;
+  padding: 1%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+/* line 199, src/sass/components/_base.scss */
+.services img {
+  width: 20%;
+}
+
+/* line 203, src/sass/components/_base.scss */
+.services .text {
+  max-height: 5%;
+}
+
+/* line 207, src/sass/components/_base.scss */
+.services div h3 {
+  font-size: 110%;
+}
+
+/* line 210, src/sass/components/_base.scss */
+.services div .text p {
+  min-width: 260%;
+  font-size: 80%;
+}
+
+/* line 215, src/sass/components/_base.scss */
+.call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 85%;
+}
+
+/* line 222, src/sass/components/_base.scss */
+.call .left {
+  text-align: left;
+  color: #7448D7;
+  font-size: 100%;
+  line-height: 1%;
+  margin-left: 3%;
+}
+
+/* line 229, src/sass/components/_base.scss */
+.call .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  color: #7448D7;
+  font-size: 90%;
+  padding: 2%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 1%;
+}
+
+/* line 241, src/sass/components/_base.scss */
+.call .right div {
+  min-width: 100%;
+  border-radius: 5px;
+  margin: 1px;
+  text-align: center;
+}
+
+/* line 248, src/sass/components/_base.scss */
+.account {
+  background-color: #736FDF;
+  color: #FFFFFF;
+}
+
+/* line 252, src/sass/components/_base.scss */
+.contact {
+  color: #736FDF;
+  -webkit-box-shadow: 0px 2px 2px grey;
+          box-shadow: 0px 2px 2px grey;
+}
+
+/* line 256, src/sass/components/_base.scss */
+.contact:hover {
+  -webkit-box-shadow: 0px 4px 4px grey;
+          box-shadow: 0px 4px 4px grey;
+}
+
+/* line 259, src/sass/components/_base.scss */
+.account:hover {
+  -webkit-box-shadow: 0px 4px 4px grey;
+          box-shadow: 0px 4px 4px grey;
+}
+
+/* line 262, src/sass/components/_base.scss */
+.account div {
+  padding: 1%;
+}
+
+/* line 266, src/sass/components/_base.scss */
+.contact div {
+  padding: 1%;
+}
+
+/* line 270, src/sass/components/_base.scss */
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #736FDF;
+  height: 250px;
+  color: #FCFCFD;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+/* line 278, src/sass/components/_base.scss */
+.footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+/* line 284, src/sass/components/_base.scss */
+.footer div a {
+  font-size: 80%;
+  min-height: 2%;
+}
+
+/* line 289, src/sass/components/_base.scss */
+.footer div .title {
+  font-weight: 400;
+}
